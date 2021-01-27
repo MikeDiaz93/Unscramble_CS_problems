@@ -1,0 +1,25 @@
+Analysis 
+
+
+Task 0 
+We get the values by accessing indices.  It is O(1) time.
+(Getting items from a known position in a list is done in constant time)
+
+Task 1 
+We apply 2 for loops iterating over the files. The time is 2n, but as 2 is constant, it is O(n) time.
+(Iterating over the 2 lists - phone and text logs)
+
+Task 2 
+
+We also have iterations. So the time is O(n).
+(Iterating over the list of entries in the phone logs)
+
+Task 3
+
+We have 1 loop and a sorted method. The loop is O(n) time complexity. And the sorted method has complexity O(nlogn). The time complexity for this problem is O(n*log(n)).
+(We use the sorted method)
+
+Task 4 
+
+We use 2 for loops and one sorted method. So, the time complexity is the same as the previous problem, O(n*log(n)).
+(Also use the sorted method)
