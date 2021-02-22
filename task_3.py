@@ -76,6 +76,6 @@ for i in calls:
 print("The numbers called by people in Bangalore have codes:",
       *sorted(prefixes), sep="\n")
 
-percentage = round((receivers_bnglr/callers_bnglr) * 100, 3)
+percentage = round((receivers_bnglr/callers_bnglr) * 100, 2)
 
 print(f"{percentage} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.")
